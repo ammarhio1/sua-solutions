@@ -2,8 +2,9 @@ export default function Home() {
     return (
       <>
         <h1 className="text-xl font-bold mb-4">
-        December 19, 2022. Received sales return request No. R8034 (Doc. No. 12) from Eastern Wisconsin University 
-(EWU). The request was approved, and the acknowledgment copy mailed to EWU
+        Received legal notification from Benson, Rosenbrook, and Martinson, P.C., attorneys at law, 
+that Stevenson College had filed bankruptcy and will most likely be unable to pay any of its 
+outstanding debts to its suppliers. Write off the account as a bad debt.
         </h1>
   
         <h2 className="text-lg font-bold mb-2">NO DOCUMENTS REQUIRED</h2>
