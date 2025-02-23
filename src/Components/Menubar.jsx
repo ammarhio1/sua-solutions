@@ -30,6 +30,12 @@ export default function Menubar() {
       >
         Transaction 6
       </Link>
+      <Link
+        href="/Transaction10"
+        className="text-blue-600 hover:text-blue-800 px-4 py-2"
+      >
+        Transaction 10
+      </Link>
     </>
   );
 }
