@@ -42,6 +42,12 @@ export default function Menubar() {
       >
         Transaction 12
       </Link>
+      <Link
+        href="/Chapter1"
+        className="text-blue-600 hover:text-blue-800 px-4 py-2"
+      >
+        Chapter 1
+      </Link>
     </>
   );
 }
