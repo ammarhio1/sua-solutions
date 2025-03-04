@@ -1,6 +1,4 @@
-import React from 'react';
-
-const Chapter1Page = () => {
+export default function Home() {
   // Define styles as an object
   const styles = {
     body: {
@@ -23,7 +21,7 @@ const Chapter1Page = () => {
   };
 
   return (
-    <div style={styles.body}>
+    <><div style={styles.body}>
       <h1>Answers to Problems</h1>
 
       <h2>Problem 1</h2>
@@ -40,27 +38,16 @@ const Chapter1Page = () => {
       <div style={styles.entry}>
         <p><span style={styles.bold}>Answer:</span> C</p>
       </div>
-
-      <h2>Problem 4</h2>
-      <div style={styles.entry}>
+    </div><h2>Problem 4</h2><div style={styles.entry}>
         <p><span style={styles.bold}>Answer:</span> B</p>
-      </div>
-
-      <h2>Problem 5</h2>
-      <div style={styles.entry}>
+      </div><h2>Problem 5</h2><div style={styles.entry}>
         <p><span style={styles.bold}>Answer:</span> D</p>
-      </div>
-
-      <h2>Problem 6</h2>
-      <div style={styles.entry}>
+      </div><h2>Problem 6</h2><div style={styles.entry}>
         <p><span style={styles.bold}>Acquisition price:</span> $2,295,000</p>
         <p><span style={styles.bold}>Equity income ($750,000 × 30%):</span> $225,000</p>
         <p><span style={styles.bold}>Dividends (90,000 shares × $1.00):</span> ($90,000)</p>
         <p><span style={styles.bold}>Investment in O’Fallon as of December 31:</span> $2,430,000</p>
-      </div>
-
-      <h2>Problem 7</h2>
-      <div style={styles.entry}>
+      </div><h2>Problem 7</h2><div style={styles.entry}>
         <p><span style={styles.bold}>Acquisition price:</span> $700,000</p>
         <p><span style={styles.bold}>Income accruals:</span></p>
         <div style={styles.margin}>
@@ -82,10 +69,7 @@ const Chapter1Page = () => {
         <p><span style={styles.bold}>Acquired net assets (book value) ($3,000,000 × 20%):</span> ($600,000)</p>
         <p><span style={styles.bold}>Excess cost over book value to patent:</span> $100,000</p>
         <p><span style={styles.bold}>Annual amortization (10-year remaining life):</span> $10,000</p>
-      </div>
-
-      <h2>Problem 8</h2>
-      <div style={styles.entry}>
+      </div><h2>Problem 8</h2><div style={styles.entry}>
         <p><span style={styles.bold}>Purchase price of Johnson stock:</span> $500,000</p>
         <p><span style={styles.bold}>Book value of Johnson ($900,000 × 40%):</span> ($360,000)</p>
         <p><span style={styles.bold}>Cost in excess of book value:</span> $140,000</p>
@@ -100,10 +84,7 @@ const Chapter1Page = () => {
         <p><span style={styles.bold}>Amortization:</span> ($16,400)</p>
         <p><span style={styles.bold}>Dividends declared ($30,000 × 40%):</span> ($12,000)</p>
         <p><span style={styles.bold}>Investment in Johnson:</span> $507,600</p>
-      </div>
-
-      <h2>Problem 9</h2>
-      <div style={styles.entry}>
+      </div><h2>Problem 9</h2><div style={styles.entry}>
         <p><span style={styles.bold}>Answer:</span> D</p>
         <p><span style={styles.bold}>Purchase price of Max stock:</span> $600,000</p>
         <p><span style={styles.bold}>Book value of Max stock ($1,200,000 × 40%):</span> ($480,000)</p>
@@ -119,173 +100,173 @@ const Chapter1Page = () => {
         <p><span style={styles.bold}>2025 Dividend ($50,000 × 40%):</span> ($20,000)</p>
         <p><span style={styles.bold}>Investment in Max, 12/31/25:</span> $708,000</p>
 
-      <h2>Problem 10</h2>
-      <div style={styles.entry}>
-        <p><span style={styles.bold}>Answer:</span> D</p>
-      </div>
-
-      <h2>Problem 11</h2>
-      <div style={styles.entry}>
-        <p><span style={styles.bold}>Gross profit rate (GPR):</span> $15,000 ÷ $75,000 = 20%</p>
-        <p><span style={styles.bold}>Inventory remaining at year-end:</span> $30,000</p>
-        <p><span style={styles.bold}>GPR:</span> × 20%</p>
-        <p><span style={styles.bold}>Gross profit:</span> $6,000</p>
-        <p><span style={styles.bold}>Ownership:</span> × 35%</p>
-        <p><span style={styles.bold}>Intra-entity gross profit—deferred:</span> $2,100</p>
-      </div>
-
-      <h2>Problem 12</h2>
-      <div style={styles.entry}>
-        <p><span style={styles.bold}>Purchase price of Steinbart shares:</span> $530,000</p>
-        <p><span style={styles.bold}>Book value of Steinbart shares ($1,200,000 × 40%):</span> ($480,000)</p>
-        <p><span style={styles.bold}>Trade name:</span> $50,000</p>
-        <p><span style={styles.bold}>Remaining life of trade name:</span> 20 years</p>
-        <p><span style={styles.bold}>Annual amortization:</span> $2,500</p>
-        <p><span style={styles.bold}>2023 Gross profit rate:</span> $30,000 ÷ $100,000 = 30%</p>
-        <p><span style={styles.bold}>2024 Gross profit rate:</span> $54,000 ÷ $150,000 = 36%</p>
-        <p><span style={styles.bold}>2024—Equity income in Steinbart:</span></p>
-        <div style={styles.margin}>
-          <p>Income accrual ($110,000 × 40%): $44,000</p>
-          <p>Amortization: ($2,500)</p>
-          <p>Recognition of 2023 deferred gross profit ($25,000 × 30% GPR × 40% ownership): $3,000</p>
-          <p>Deferral of 2024 intra-entity gross profit ($45,000 × 36% GPR × 40% ownership): ($6,480)</p>
+        <h2>Problem 10</h2>
+        <div style={styles.entry}>
+          <p><span style={styles.bold}>Answer:</span> D</p>
         </div>
-        <p><span style={styles.bold}>Equity income in Steinbart—2024:</span> $38,020</p>
-      </div>
 
-      <h2>Problem 13</h2>
-      <div style={styles.entry}>
-        <p><span style={styles.bold}>Purchase price:</span> $1,160,000</p>
-        <p><span style={styles.bold}>Basic 2024 equity accrual ($260,000 × 40%):</span> $104,000</p>
-        <p><span style={styles.bold}>Amortization of copyright:</span></p>
-        <div style={styles.margin}>
-          <p>Excess payment ($1,160,000 – $820,000 = $340,000)</p>
-          <p>to copyright allocated over 10-year remaining life: ($34,000)</p>
+        <h2>Problem 11</h2>
+        <div style={styles.entry}>
+          <p><span style={styles.bold}>Gross profit rate (GPR):</span> $15,000 ÷ $75,000 = 20%</p>
+          <p><span style={styles.bold}>Inventory remaining at year-end:</span> $30,000</p>
+          <p><span style={styles.bold}>GPR:</span> × 20%</p>
+          <p><span style={styles.bold}>Gross profit:</span> $6,000</p>
+          <p><span style={styles.bold}>Ownership:</span> × 35%</p>
+          <p><span style={styles.bold}>Intra-entity gross profit—deferred:</span> $2,100</p>
         </div>
-        <p><span style={styles.bold}>Dividends (50,000 × 40%):</span> ($20,000)</p>
-        <p><span style={styles.bold}>Investment account balance at year-end:</span> $1,210,000</p>
-      </div>
 
-      <h2>Problem 14</h2>
-      <div style={styles.entry}>
-        <p><span style={styles.bold}>a. Purchase price:</span> $2,290,000</p>
-        <p><span style={styles.bold}>Equity income accrual ($720,000 × 35%):</span> $252,000</p>
-        <p><span style={styles.bold}>Other comprehensive loss accrual ($100,000 × 35%):</span> ($35,000)</p>
-        <p><span style={styles.bold}>Dividends (20,000 × 35%):</span> ($7,000)</p>
-        <p><span style={styles.bold}>Investment in Sharon at December 31, 2024:</span> $2,500,000</p>
-        <p><span style={styles.bold}>b. Equity in Earnings of Sharon:</span> $252,000 (does not include OCI share which is reported separately).</p>
-      </div>
+        <h2>Problem 12</h2>
+        <div style={styles.entry}>
+          <p><span style={styles.bold}>Purchase price of Steinbart shares:</span> $530,000</p>
+          <p><span style={styles.bold}>Book value of Steinbart shares ($1,200,000 × 40%):</span> ($480,000)</p>
+          <p><span style={styles.bold}>Trade name:</span> $50,000</p>
+          <p><span style={styles.bold}>Remaining life of trade name:</span> 20 years</p>
+          <p><span style={styles.bold}>Annual amortization:</span> $2,500</p>
+          <p><span style={styles.bold}>2023 Gross profit rate:</span> $30,000 ÷ $100,000 = 30%</p>
+          <p><span style={styles.bold}>2024 Gross profit rate:</span> $54,000 ÷ $150,000 = 36%</p>
+          <p><span style={styles.bold}>2024—Equity income in Steinbart:</span></p>
+          <div style={styles.margin}>
+            <p>Income accrual ($110,000 × 40%): $44,000</p>
+            <p>Amortization: ($2,500)</p>
+            <p>Recognition of 2023 deferred gross profit ($25,000 × 30% GPR × 40% ownership): $3,000</p>
+            <p>Deferral of 2024 intra-entity gross profit ($45,000 × 36% GPR × 40% ownership): ($6,480)</p>
+          </div>
+          <p><span style={styles.bold}>Equity income in Steinbart—2024:</span> $38,020</p>
+        </div>
 
-      <h2>Problem 15</h2>
-      <div style={styles.entry}>
-        <p><span style={styles.bold}>a. Acquisition price:</span> $2,700,000</p>
-        <p><span style={styles.bold}>Book value acquired ($5,175,000 × 20%):</span> $1,035,000</p>
-        <p><span style={styles.bold}>Excess payment:</span> $1,665,000</p>
-        <p><span style={styles.bold}>Excess fair value:</span></p>
-        <div style={styles.margin}>
-          <p>Computing equipment ($700,000 × 20%): $140,000</p>
-          <p>Patented technology ($3,900,000 × 20%): $780,000</p>
-          <p>Trademark ($1,850,000 × 20%): $370,000</p>
+        <h2>Problem 13</h2>
+        <div style={styles.entry}>
+          <p><span style={styles.bold}>Purchase price:</span> $1,160,000</p>
+          <p><span style={styles.bold}>Basic 2024 equity accrual ($260,000 × 40%):</span> $104,000</p>
+          <p><span style={styles.bold}>Amortization of copyright:</span></p>
+          <div style={styles.margin}>
+            <p>Excess payment ($1,160,000 – $820,000 = $340,000)</p>
+            <p>to copyright allocated over 10-year remaining life: ($34,000)</p>
+          </div>
+          <p><span style={styles.bold}>Dividends (50,000 × 40%):</span> ($20,000)</p>
+          <p><span style={styles.bold}>Investment account balance at year-end:</span> $1,210,000</p>
         </div>
-        <p><span style={styles.bold}>Goodwill:</span> $375,000</p>
-        <p><span style={styles.bold}>Amortization:</span></p>
-        <div style={styles.margin}>
-          <p>Computing equipment ($140,000 ÷ 7): $20,000</p>
-          <p>Patented technology ($780,000 ÷ 3): $260,000</p>
-          <p>Trademark (indefinite): $0</p>
-          <p>Goodwill (indefinite): $0</p>
-        </div>
-        <p><span style={styles.bold}>Annual amortization:</span> $280,000</p>
-        <p><span style={styles.bold}>b. Basic equity accrual 2023 ($1,800,000 × 20%):</span> $360,000</p>
-        <p><span style={styles.bold}>Amortization—2023:</span> ($280,000)</p>
-        <p><span style={styles.bold}>Equity in 2023 earnings of Sauk Trail:</span> $80,000</p>
-        <p><span style={styles.bold}>Basic equity accrual 2024 ($1,985,000 × 20%):</span> $397,000</p>
-        <p><span style={styles.bold}>Amortization—2024:</span> ($280,000)</p>
-        <p><span style={styles.bold}>Equity in 2024 earnings of Sauk Trail:</span> $117,000</p>
-        <p><span style={styles.bold}>c. Acquisition price:</span> $2,700,000</p>
-        <p><span style={styles.bold}>Equity in 2023 earnings of Sauk Trail:</span> $80,000</p>
-        <p><span style={styles.bold}>Dividends—2023 ($150,000 × 20%):</span> ($30,000)</p>
-        <p><span style={styles.bold}>Investment in Sauk Trail, 12/31/23:</span> $2,750,000</p>
-        <p><span style={styles.bold}>Investment in Sauk Trail, 12/31/23:</span> $2,750,000</p>
-        <p><span style={styles.bold}>Equity in 2024 earnings of Sauk Trail:</span> $117,000</p>
-        <p><span style={styles.bold}>Dividends—2024 ($160,000 × 20%):</span> ($32,000)</p>
-        <p><span style={styles.bold}>Investment in Sauk Trail, 12/31/24:</span> $2,835,000</p>
-      </div>
 
-      <h2>Problem 16</h2>
-      <div style={styles.entry}>
-        <p><span style={styles.bold}>a. Acquisition price:</span> $60,000</p>
-        <p><span style={styles.bold}>Book value—assets minus liabilities ($125,000 × 40%):</span> $50,000</p>
-        <p><span style={styles.bold}>Excess payment:</span> $10,000</p>
-        <p><span style={styles.bold}>Value of patent in excess of book value ($15,000 × 40%):</span> $6,000</p>
-        <p><span style={styles.bold}>Goodwill:</span> $4,000</p>
-        <p><span style={styles.bold}>Amortization:</span></p>
-        <div style={styles.margin}>
-          <p>Patent ($6,000 ÷ 6): $1,000</p>
-          <p>Goodwill: $0</p>
+        <h2>Problem 14</h2>
+        <div style={styles.entry}>
+          <p><span style={styles.bold}>a. Purchase price:</span> $2,290,000</p>
+          <p><span style={styles.bold}>Equity income accrual ($720,000 × 35%):</span> $252,000</p>
+          <p><span style={styles.bold}>Other comprehensive loss accrual ($100,000 × 35%):</span> ($35,000)</p>
+          <p><span style={styles.bold}>Dividends (20,000 × 35%):</span> ($7,000)</p>
+          <p><span style={styles.bold}>Investment in Sharon at December 31, 2024:</span> $2,500,000</p>
+          <p><span style={styles.bold}>b. Equity in Earnings of Sharon:</span> $252,000 (does not include OCI share which is reported separately).</p>
         </div>
-        <p><span style={styles.bold}>Annual amortization:</span> $1,000</p>
-        <p><span style={styles.bold}>Acquisition price:</span> $60,000</p>
-        <p><span style={styles.bold}>Basic equity accrual 2023 ($30,000 × 40%):</span> $12,000</p>
-        <p><span style={styles.bold}>Dividends—2023 ($10,000 × 40%):</span> ($4,000)</p>
-        <p><span style={styles.bold}>Amortization—2023:</span> ($1,000)</p>
-        <p><span style={styles.bold}>Investment in Chestnut, 12/31/23:</span> $67,000</p>
-        <p><span style={styles.bold}>Basic equity accrual—2024 ($50,000 × 40%):</span> $20,000</p>
-        <p><span style={styles.bold}>Dividends—2024 ($15,000 × 40%):</span> ($6,000)</p>
-        <p><span style={styles.bold}>Amortization—2024:</span> ($1,000)</p>
-        <p><span style={styles.bold}>Investment in Chestnut, 12/31/24:</span> $80,000</p>
-        <p><span style={styles.bold}>b. Dividend income ($15,000 × 40%):</span> $6,000</p>
-        <p><span style={styles.bold}>Increase in fair value ($75,000 – $68,000):</span> $7,000</p>
-        <p><span style={styles.bold}>Investment income under fair value accounting—2024:</span> $13,000</p>
-      </div>
 
-      <h2>Problem 17</h2>
-      <div style={styles.entry}>
-        <p><span style={styles.bold}>Purchase price of Burks stock:</span> $210,000</p>
-        <p><span style={styles.bold}>Book value of Burks stock ($360,000 × 40%):</span> ($144,000)</p>
-        <p><span style={styles.bold}>Unidentified asset (goodwill):</span> $66,000</p>
-        <p><span style={styles.bold}>Life:</span> Indefinite</p>
-        <p><span style={styles.bold}>Annual amortization:</span> $0</p>
-        <p><span style={styles.bold}>No intra-entity profit exists at year’s end because all of the transferred merchandise was used during the period.</span></p>
-        <p><span style={styles.bold}>Journal Entries:</span></p>
-        <div style={styles.margin}>
-          <p>Investment in Burks, Inc. .......................................... 210,000</p>
-          <p>Cash (or a Liability).............................................. 210,000</p>
-          <p>To record acquisition of a 40 percent interest in Burks.</p>
-          <p>Investment in Burks, Inc. .......................................... 32,000</p>
-          <p>Equity in Investee Income ................................... 32,000</p>
-          <p>To recognize 40 percent income earned during period by Burks, an equity method investment.</p>
-          <p>Dividend Receivable.................................................. 10,000</p>
-          <p>Investment in Burks, Inc...................................... 10,000</p>
-          <p>To record investee dividend declaration.</p>
-          <p>Cash............................................................................ 10,000</p>
-          <p>Dividend Receivable. ........................................... 10,000</p>
-          <p>To record collection of dividend from investee.</p>
+        <h2>Problem 15</h2>
+        <div style={styles.entry}>
+          <p><span style={styles.bold}>a. Acquisition price:</span> $2,700,000</p>
+          <p><span style={styles.bold}>Book value acquired ($5,175,000 × 20%):</span> $1,035,000</p>
+          <p><span style={styles.bold}>Excess payment:</span> $1,665,000</p>
+          <p><span style={styles.bold}>Excess fair value:</span></p>
+          <div style={styles.margin}>
+            <p>Computing equipment ($700,000 × 20%): $140,000</p>
+            <p>Patented technology ($3,900,000 × 20%): $780,000</p>
+            <p>Trademark ($1,850,000 × 20%): $370,000</p>
+          </div>
+          <p><span style={styles.bold}>Goodwill:</span> $375,000</p>
+          <p><span style={styles.bold}>Amortization:</span></p>
+          <div style={styles.margin}>
+            <p>Computing equipment ($140,000 ÷ 7): $20,000</p>
+            <p>Patented technology ($780,000 ÷ 3): $260,000</p>
+            <p>Trademark (indefinite): $0</p>
+            <p>Goodwill (indefinite): $0</p>
+          </div>
+          <p><span style={styles.bold}>Annual amortization:</span> $280,000</p>
+          <p><span style={styles.bold}>b. Basic equity accrual 2023 ($1,800,000 × 20%):</span> $360,000</p>
+          <p><span style={styles.bold}>Amortization—2023:</span> ($280,000)</p>
+          <p><span style={styles.bold}>Equity in 2023 earnings of Sauk Trail:</span> $80,000</p>
+          <p><span style={styles.bold}>Basic equity accrual 2024 ($1,985,000 × 20%):</span> $397,000</p>
+          <p><span style={styles.bold}>Amortization—2024:</span> ($280,000)</p>
+          <p><span style={styles.bold}>Equity in 2024 earnings of Sauk Trail:</span> $117,000</p>
+          <p><span style={styles.bold}>c. Acquisition price:</span> $2,700,000</p>
+          <p><span style={styles.bold}>Equity in 2023 earnings of Sauk Trail:</span> $80,000</p>
+          <p><span style={styles.bold}>Dividends—2023 ($150,000 × 20%):</span> ($30,000)</p>
+          <p><span style={styles.bold}>Investment in Sauk Trail, 12/31/23:</span> $2,750,000</p>
+          <p><span style={styles.bold}>Investment in Sauk Trail, 12/31/23:</span> $2,750,000</p>
+          <p><span style={styles.bold}>Equity in 2024 earnings of Sauk Trail:</span> $117,000</p>
+          <p><span style={styles.bold}>Dividends—2024 ($160,000 × 20%):</span> ($32,000)</p>
+          <p><span style={styles.bold}>Investment in Sauk Trail, 12/31/24:</span> $2,835,000</p>
         </div>
-      </div>
 
-      <h2>Problem 18</h2>
-      <div style={styles.entry}>
-        <p><span style={styles.bold}>JANUARY 1, 2024 (Date significant influence is attained)</span></p>
-        <p><span style={styles.bold}>Purchase price of 30% of Seida’s stock:</span> $600,000</p>
-        <p><span style={styles.bold}>Fair value of original 10% investment in Seida:</span> $200,000</p>
-        <p><span style={styles.bold}>Total fair value of 40% investment in Seida:</span> $800,000</p>
-        <p><span style={styles.bold}>Book value of Seida stock ($1,850,000 × 40%):</span> ($740,000)</p>
-        <p><span style={styles.bold}>Fair value in excess of book value:</span> $60,000</p>
-        <p><span style={styles.bold}>Excess cost assigned to undervalued land ($120,000 × 40%):</span> ($48,000)</p>
-        <p><span style={styles.bold}>Trademark:</span> $12,000</p>
-        <p><span style={styles.bold}>Remaining life of Trademark:</span> ÷ 8 years</p>
-        <p><span style={styles.bold}>Annual Amortization:</span> $1,500</p>
-        <p><span style={styles.bold}>Journal Entries:</span></p>
-        <div style={styles.margin}>
-          <p>To record acquisition of Seida stock.</p>
-          <p>Investment in Seida................................................... 600,000</p>
-          <p>Cash ...................................................................... 600,000</p>
-          <p>Investment in Seida................................................... 120,000</p>
-          <p>Equity in Investee Income ................................... 120,000</p>
+        <h2>Problem 16</h2>
+        <div style={styles.entry}>
+          <p><span style={styles.bold}>a. Acquisition price:</span> $60,000</p>
+          <p><span style={styles.bold}>Book value—assets minus liabilities ($125,000 × 40%):</span> $50,000</p>
+          <p><span style={styles.bold}>Excess payment:</span> $10,000</p>
+          <p><span style={styles.bold}>Value of patent in excess of book value ($15,000 × 40%):</span> $6,000</p>
+          <p><span style={styles.bold}>Goodwill:</span> $4,000</p>
+          <p><span style={styles.bold}>Amortization:</span></p>
+          <div style={styles.margin}>
+            <p>Patent ($6,000 ÷ 6): $1,000</p>
+            <p>Goodwill: $0</p>
+          </div>
+          <p><span style={styles.bold}>Annual amortization:</span> $1,000</p>
+          <p><span style={styles.bold}>Acquisition price:</span> $60,000</p>
+          <p><span style={styles.bold}>Basic equity accrual 2023 ($30,000 × 40%):</span> $12,000</p>
+          <p><span style={styles.bold}>Dividends—2023 ($10,000 × 40%):</span> ($4,000)</p>
+          <p><span style={styles.bold}>Amortization—2023:</span> ($1,000)</p>
+          <p><span style={styles.bold}>Investment in Chestnut, 12/31/23:</span> $67,000</p>
+          <p><span style={styles.bold}>Basic equity accrual—2024 ($50,000 × 40%):</span> $20,000</p>
+          <p><span style={styles.bold}>Dividends—2024 ($15,000 × 40%):</span> ($6,000)</p>
+          <p><span style={styles.bold}>Amortization—2024:</span> ($1,000)</p>
+          <p><span style={styles.bold}>Investment in Chestnut, 12/31/24:</span> $80,000</p>
+          <p><span style={styles.bold}>b. Dividend income ($15,000 × 40%):</span> $6,000</p>
+          <p><span style={styles.bold}>Increase in fair value ($75,000 – $68,000):</span> $7,000</p>
+          <p><span style={styles.bold}>Investment income under fair value accounting—2024:</span> $13,000</p>
         </div>
-      </div>
-    </div><h2>Problem 18 (continued)</h2><div style={styles.entry}>
+
+        <h2>Problem 17</h2>
+        <div style={styles.entry}>
+          <p><span style={styles.bold}>Purchase price of Burks stock:</span> $210,000</p>
+          <p><span style={styles.bold}>Book value of Burks stock ($360,000 × 40%):</span> ($144,000)</p>
+          <p><span style={styles.bold}>Unidentified asset (goodwill):</span> $66,000</p>
+          <p><span style={styles.bold}>Life:</span> Indefinite</p>
+          <p><span style={styles.bold}>Annual amortization:</span> $0</p>
+          <p><span style={styles.bold}>No intra-entity profit exists at year’s end because all of the transferred merchandise was used during the period.</span></p>
+          <p><span style={styles.bold}>Journal Entries:</span></p>
+          <div style={styles.margin}>
+            <p>Investment in Burks, Inc. .......................................... 210,000</p>
+            <p>Cash (or a Liability).............................................. 210,000</p>
+            <p>To record acquisition of a 40 percent interest in Burks.</p>
+            <p>Investment in Burks, Inc. .......................................... 32,000</p>
+            <p>Equity in Investee Income ................................... 32,000</p>
+            <p>To recognize 40 percent income earned during period by Burks, an equity method investment.</p>
+            <p>Dividend Receivable.................................................. 10,000</p>
+            <p>Investment in Burks, Inc...................................... 10,000</p>
+            <p>To record investee dividend declaration.</p>
+            <p>Cash............................................................................ 10,000</p>
+            <p>Dividend Receivable. ........................................... 10,000</p>
+            <p>To record collection of dividend from investee.</p>
+          </div>
+        </div>
+
+        <h2>Problem 18</h2>
+        <div style={styles.entry}>
+          <p><span style={styles.bold}>JANUARY 1, 2024 (Date significant influence is attained)</span></p>
+          <p><span style={styles.bold}>Purchase price of 30% of Seida’s stock:</span> $600,000</p>
+          <p><span style={styles.bold}>Fair value of original 10% investment in Seida:</span> $200,000</p>
+          <p><span style={styles.bold}>Total fair value of 40% investment in Seida:</span> $800,000</p>
+          <p><span style={styles.bold}>Book value of Seida stock ($1,850,000 × 40%):</span> ($740,000)</p>
+          <p><span style={styles.bold}>Fair value in excess of book value:</span> $60,000</p>
+          <p><span style={styles.bold}>Excess cost assigned to undervalued land ($120,000 × 40%):</span> ($48,000)</p>
+          <p><span style={styles.bold}>Trademark:</span> $12,000</p>
+          <p><span style={styles.bold}>Remaining life of Trademark:</span> ÷ 8 years</p>
+          <p><span style={styles.bold}>Annual Amortization:</span> $1,500</p>
+          <p><span style={styles.bold}>Journal Entries:</span></p>
+          <div style={styles.margin}>
+            <p>To record acquisition of Seida stock.</p>
+            <p>Investment in Seida................................................... 600,000</p>
+            <p>Cash ...................................................................... 600,000</p>
+            <p>Investment in Seida................................................... 120,000</p>
+            <p>Equity in Investee Income ................................... 120,000</p>
+          </div>
+        </div>
+      </div><h2>Problem 18 (continued)</h2><div style={styles.entry}>
         <p><span style={styles.bold}>To record income for the year: 40% of the $300,000 reported income.</span></p>
         <div style={styles.margin}>
           <p>Equity in Investee Income ........................................ 1,500</p>
@@ -379,9 +360,7 @@ const Chapter1Page = () => {
         <p><span style={styles.bold}>b. Subsequent accounting for the remaining shares depends on the influence retained post-sale. If Einstein maintains the ability to apply significant influence to the operating and financial decisions of Brooks, the equity method is still applicable based on the smaller new ownership percentage. However, if significant influence has been lost, Einstein should report the remaining shares by means of the fair-value method.</span></p>
         <p><span style={styles.bold}>c. In this situation, several figures would be reported by Einstein. First, an equity income balance is recorded that includes both the accrual and amortization prior to August 1. Second, a gain or loss should be shown for the sale of the shares. Third, any change in the 2 percent investment fair value since August 1 along with 2 percent of investee dividends declared after August 1 must be included in Einstein’s investment income for the current year.</span></p>
         <p><span style={styles.bold}>d. No, the ability to apply significant influence to the investee was present prior to August 1 so that the equity method was appropriate. No change is made in those figures. However, after the sale, the remaining investment must be accounted for by means of the fair-value method.</span></p>
-        </div>
-        <h2>Problem 25</h2>
-      <div style={styles.entry}>
+      </div><h2>Problem 25</h2><div style={styles.entry}>
         <p><span style={styles.bold}>a. Equity income accrual—2024 ($90,000 × 30%): $27,000</span></p>
         <p><span style={styles.bold}>Amortization—2024 (given): ($9,000)</span></p>
         <p><span style={styles.bold}>Intra-entity profit recognized on 2023 transfer*: $1,200</span></p>
@@ -407,10 +386,7 @@ const Chapter1Page = () => {
         <p><span style={styles.bold}>Equity income—2024 (see [a] above): $16,560</span></p>
         <p><span style={styles.bold}>Dividends—2024 ($30,000 × 30%): ($9,000)</span></p>
         <p><span style={styles.bold}>Investment in Lindman, 12/31/24: $342,560</span></p>
-      </div>
-
-      <h2>Problem 26</h2>
-      <div style={styles.entry}>
+      </div><h2>Problem 26</h2><div style={styles.entry}>
         <p><span style={styles.bold}>Part a</span></p>
         <p><span style={styles.bold}>Allocation and annual amortization—12/31/23</span></p>
         <div style={styles.margin}>
@@ -440,8 +416,8 @@ const Chapter1Page = () => {
         <p><span style={styles.bold}>Increase in fair value (30% × [$480,000 - $380,000]): $30,000</span></p>
         <p><span style={styles.bold}>Total reported income from Investment in Zip: $34,500</span></p>
         <p><span style={styles.bold}>2. Investment in Zip (30% × $480,000): $144,000</span></p>
-      </div>
-      </div>
+      </div></>
+    
   );
 };
 
