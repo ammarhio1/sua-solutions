@@ -18,7 +18,7 @@ export default function Home() {
     margin: {
       marginLeft: '40px',
     },
-  };}
+  };
 
   return (
    <><div style={styles.body}>
@@ -362,7 +362,7 @@ export default function Home() {
         <p><span style={styles.bold}>b. Subsequent accounting for the remaining shares depends on the influence retained post-sale. If Einstein maintains the ability to apply significant influence to the operating and financial decisions of Brooks, the equity method is still applicable based on the smaller new ownership percentage. However, if significant influence has been lost, Einstein should report the remaining shares by means of the fair-value method.</span></p>
         <p><span style={styles.bold}>c. In this situation, several figures would be reported by Einstein. First, an equity income balance is recorded that includes both the accrual and amortization prior to August 1. Second, a gain or loss should be shown for the sale of the shares. Third, any change in the 2 percent investment fair value since August 1 along with 2 percent of investee dividends declared after August 1 must be included in Einstein’s investment income for the current year.</span></p>
         <p><span style={styles.bold}>d. No, the ability to apply significant influence to the investee was present prior to August 1 so that the equity method was appropriate. No change is made in those figures. However, after the sale, the remaining investment must be accounted for by means of the fair-value method.</span></p>
-      </div><h2>Problem 25</h2><div style={styles.entry}>
+      <h2>Problem 25</h2><div style={styles.entry}></div>
         <p><span style={styles.bold}>a. Equity income accrual—2024 ($90,000 × 30%): $27,000</span></p>
         <p><span style={styles.bold}>Amortization—2024 (given): ($9,000)</span></p>
         <p><span style={styles.bold}>Intra-entity profit recognized on 2023 transfer*: $1,200</span></p>
@@ -388,7 +388,7 @@ export default function Home() {
         <p><span style={styles.bold}>Equity income—2024 (see [a] above): $16,560</span></p>
         <p><span style={styles.bold}>Dividends—2024 ($30,000 × 30%): ($9,000)</span></p>
         <p><span style={styles.bold}>Investment in Lindman, 12/31/24: $342,560</span></p>
-      </div><h2>Problem 26</h2><div style={styles.entry}>
+      <h2>Problem 26</h2><div style={styles.entry}></div>
         <p><span style={styles.bold}>Part a</span></p>
         <p><span style={styles.bold}>Allocation and annual amortization—12/31/23</span></p>
         <div style={styles.margin}>
@@ -418,7 +418,7 @@ export default function Home() {
         <p><span style={styles.bold}>Increase in fair value (30% × [$480,000 - $380,000]): $30,000</span></p>
         <p><span style={styles.bold}>Total reported income from Investment in Zip: $34,500</span></p>
         <p><span style={styles.bold}>2. Investment in Zip (30% × $480,000): $144,000</span></p>
-      </div><div>
+      <div></div>
         <h2>Problem 27</h2>
         <div style={styles.entry}>
           <p>
@@ -464,7 +464,7 @@ export default function Home() {
             Equity income 2024.......................................................................... $64,500
           </p>
         </div>
-      </div><div style={styles.entry}>
+      <div style={styles.entry}></div>
         <p>
           <span style={styles.bold}>Part b</span>
         </p>
@@ -501,7 +501,7 @@ export default function Home() {
         <p>
           Gain on sale of investment ................................................... $19,000
         </p>
-      </div><div style={styles.entry}>
+      <div style={styles.entry}></div>
         <p>
           <span style={styles.bold}>Part c</span>
         </p>
@@ -556,7 +556,7 @@ export default function Home() {
         <p>
           Equity Income—2024............................................................. $61,500
         </p>
-      </div><div>
+      
         <h2>Problem 28</h2>
         <div style={styles.entry}>
           <p>(25 Minutes) (Preparation of journal entries for two years, includes losses and intra-entity transfers of inventory)</p>
@@ -643,7 +643,7 @@ export default function Home() {
           <p>Ownership percentage..................................................................... × 40%</p>
           <p>Intra-entity gross profit to be deferred until 2025 .................... $3,600</p>
         </div>
-      </div><div>
+      
         <h2>Problem 29</h2>
         <div style={styles.entry}>
           <p>(35 Minutes) (Investment sale with equity method applied both before and after. Includes other comprehensive loss and intra-entity inventory transfer)</p>
@@ -691,7 +691,7 @@ export default function Home() {
           <p>Proceeds from sale of shares....................................................... 93,000</p>
           <p>Gain on sale of 8,000 shares of Seacrest............................... $25,000</p>
         </div>
-      </div><div>
+      
         <h2>Problem 30</h2>
         <div style={styles.entry}>
           <p>(30 Minutes) (Compute equity balances for three years. Includes intra-entity inventory transfer)</p>
@@ -759,7 +759,7 @@ export default function Home() {
           <p>2024 Dividends declared (88,000 shares × $1.00 × 2)................. (176,000)</p>
           <p>Investment in Carter—12/31/24........................................... $957,750</p>
         </div>
-      </div><div>
+      
         <h2>Problem 31</h2>
         <div style={styles.entry}>
           <p>(35 Minutes) (Journal entries for several years. Includes sale of a portion of the investment)</p>
@@ -870,6 +870,7 @@ export default function Home() {
           <p>Total intra-entity gross profit........................................................ $15,000</p>
           <p>Investor ownership percentage.................................................... × 30%</p>
           <p>Intra-entity gross profit deferral—12/31/24 (Deferred until 2025) ...................................................................... $4,500</p>
-        </div>
-      </div></>
-  );
+        </div></div>
+        </>
+        );
+};
