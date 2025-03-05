@@ -18,11 +18,13 @@ export default function Home() {
     margin: {
       marginLeft: '40px',
     },
-  };
+  };}
 
   return (
-    <><div style={styles.body}>
-      <h1>Answers to Problems</h1>
+  <> <><div style={styles.body}>
+
+      <h1 style={styles.heading}>Answers to Problems</h1>
+
 
       <h2>Problem 1</h2>
       <div style={styles.entry}>
@@ -416,8 +418,458 @@ export default function Home() {
         <p><span style={styles.bold}>Increase in fair value (30% × [$480,000 - $380,000]): $30,000</span></p>
         <p><span style={styles.bold}>Total reported income from Investment in Zip: $34,500</span></p>
         <p><span style={styles.bold}>2. Investment in Zip (30% × $480,000): $144,000</span></p>
-      </div></>
-    
-  );
-};
+      </div><div>
+        <h2>Problem 27</h2>
+        <div style={styles.entry}>
+          <p>
+            <span style={styles.bold}>Part a</span>
+          </p>
+          <p>
+            <span style={styles.bold}>Allocation and annual amortization</span>
+          </p>
+          <p>
+            <span style={styles.bold}>Purchase price of 30 percent interest: $312,000</span>
+          </p>
+          <p>
+            <span>Net book value ($800,000 × 30%): $72,000</span>
+          </p>
+          <p>
+            <span>Remaining life of Copyright: ÷ 16 yrs</span>
+          </p>
+          <p>
+            <span>Annual Amortization: $4,500</span>
+          </p>
+          <p>
+            <span style={styles.bold}>Equity income—2023</span>
+          </p>
+          <p>
+            2023 basic equity income accrual ($180,000 × 30%) ..................... $54,000
+          </p>
+          <p>
+            2023 excess fair over book value amortization (above)................ (4,500)
+          </p>
+          <p>
+            Equity income—2023 .................................................................. $49,500
+          </p>
+          <p>
+            Equity income 2024
+          </p>
+          <p>
+            2024 basic equity income accrual ($230,000 × 30%)................ $69,000
+          </p>
+          <p>
+            2024 excess fair over book value amortization (above)........... (4,500)
+          </p>
+          <p>
+            Equity income 2024.......................................................................... $64,500
+          </p>
+        </div>
+      </div><div style={styles.entry}>
+        <p>
+          <span style={styles.bold}>Part b</span>
+        </p>
+        <p>
+          Investment in Sheffield
+        </p>
+        <p>
+          Purchase price—January 1, 2023.................................................... $312,000
+        </p>
+        <p>
+          2023 equity income (above) ....................................................... 49,500
+        </p>
+        <p>
+          2023 dividends ($70,000 × 30%)................................................. (21,000)
+        </p>
+        <p>
+          2024 equity income above.......................................................... 64,500
+        </p>
+        <p>
+          2024 dividends ($80,000 × 30%)................................................. (24,000)
+        </p>
+        <p>
+          Investment in Sheffield—12/31/24................................................... $381,000
+        </p>
+        <p>
+          Gain on sale of investment in Sheffield
+        </p>
+        <p>
+          Sales price (given) ...................................................................... $400,000
+        </p>
+        <p>
+          Book value 1/1/25 (above) .......................................................... (381,000)
+        </p>
+        <p>
+          Gain on sale of investment ................................................... $19,000
+        </p>
+      </div><div style={styles.entry}>
+        <p>
+          <span style={styles.bold}>Part c</span>
+        </p>
+        <p>
+          2023 intra-entity gross profit to be recognized in 2024
+        </p>
+        <p>
+          Ending inventory......................................................................... $20,000
+        </p>
+        <p>
+          Gross profit percentage ($20,000 ÷ $50,000) ............................ × 40%
+        </p>
+        <p>
+          Intra-entity gross profit ......................................................... $8,000
+        </p>
+        <p>
+          Belden’s ownership .................................................................... × 30%
+        </p>
+        <p>
+          Intra-entity gross profit recognized in 2024 ........................ $2,400
+        </p>
+        <p>
+          Deferral of 2024 intra-entity ending inventory gross profit into 2025
+        </p>
+        <p>
+          Ending inventory......................................................................... $40,000
+        </p>
+        <p>
+          Gross profit percentage ($27,000 ÷ $60,000) ............................ × 45%
+        </p>
+        <p>
+          Intra-entity gross profit ......................................................... $18,000
+        </p>
+        <p>
+          Belden’s ownership .................................................................... × 30%
+        </p>
+        <p>
+          Intra-entity gross profit deferred.......................................... $5,400
+        </p>
+        <p>
+          Equity Income—2024
+        </p>
+        <p>
+          2024 equity income (part a above)............................................. $64,500
+        </p>
+        <p>
+          Recognition of 2023 intra-entity profit (part c above).............. 2,400
+        </p>
+        <p>
+          Deferral of 2024 intra-entity profit (part c above) ..................... (5,400)
+        </p>
+        <p>
+          Equity Income—2024............................................................. $61,500
+        </p>
+      </div><div>
+        <h2>Problem 28</h2>
+        <div style={styles.entry}>
+          <p>(25 Minutes) (Preparation of journal entries for two years, includes losses and intra-entity transfers of inventory)</p>
+          <p>
+            <span style={styles.bold}>Journal Entries for Harper Co.</span>
+          </p>
+          <p>1/1/23 Investment in Kinman Co............. 210,000</p>
+          <p>Cash ......................................... 210,000</p>
+          <p>(To record initial investment)</p>
+          <p>During Dividends Receivable................... 4,000</p>
+          <p>2023 Investment in Kinman Co. ...... 4,000</p>
+          <p>(To record dividend declaration: $10,000 x 40%)</p>
+          <p>Cash............................................... 4,000</p>
+          <p>Dividends Receivable ............. 4,000</p>
+          <p>(To record receipt of dividend)</p>
+          <p>12/31/23 Equity in Investee Income............ 16,000</p>
+          <p>Other Comprehensive Loss of Kinman 8,000</p>
+          <p>Investment in Kinman Co. ...... 24,000</p>
+          <p>(To record accrual of income and OCI from equity investee, 40% of reported balances)</p>
+          <p>12/31/23 Equity in Investee Income............ 3,300</p>
+          <p>Investment in Kinman Co. ...... 3,300</p>
+          <p>(To record amortization relating to acquisition of Kinman—see Schedule 1 below)</p>
+          <p>12/31/23 Equity in Investee Income............ 2,000</p>
+          <p>Investment in Kinman Co. ...... 2,000</p>
+          <p>(To defer Harper’s share of gross profit on intra-entity sale, see Schedule 2 below)</p>
+        </div>
 
+        <div style={styles.entry}>
+          <p>
+            <span style={styles.bold}>During 2024</span>
+          </p>
+          <p>Dividends Receivable................... 4,800</p>
+          <p>Investment in Kinman Co. ...... 4,800</p>
+          <p>(To record dividend declaration: $12,000 x 40%)</p>
+          <p>Cash............................................... 4,800</p>
+          <p>Dividends Receivable.............. 4,800</p>
+          <p>(To record receipt of dividend)</p>
+          <p>12/31/24 Investment in Kinman Co............. 16,000</p>
+          <p>Equity in Investee Income ...... 16,000</p>
+          <p>(To record 40% accrual of income as earned by equity investee)</p>
+          <p>12/31/24 Equity in Investee Income............ 3,300</p>
+          <p>Investment in Kinman Co. ...... 3,300</p>
+          <p>(To record amortization relating to acquisition of Kinman)</p>
+          <p>12/31/24 Investment in Kinman Co............. 2,000</p>
+          <p>Equity in Investee Income ...... 2,000</p>
+          <p>(To recognize income deferred from 2023)</p>
+          <p>12/31/24 Equity in Investee Income............ 3,600</p>
+          <p>Investment in Kinman Co. ...... 3,600</p>
+          <p>(To defer Harper’s share of gross profit on intra-entity sale—see Schedule 3 below)</p>
+        </div>
+
+        <div style={styles.entry}>
+          <p>
+            <span style={styles.bold}>Schedule 1—Allocation of Purchase Price and Related Amortization</span>
+          </p>
+          <p>Purchase price ........................................................ $210,000</p>
+          <p>Percentage of book value acquired ($400,000 × 40%)..................................................... (160,000)</p>
+          <p>Payment in excess of book value .............................. $50,000</p>
+          <p>Remaining Annual</p>
+          <p>Excess payment identified with specific assets: Life Amortization</p>
+          <p>Building ($40,000 × 40%) $16,000 10 yrs. $1,600</p>
+          <p>Royalty agreement ($85,000 × 40%) 34,000 20 yrs. 1,700</p>
+          <p>Total annual amortization $3,300</p>
+        </div>
+
+        <div style={styles.entry}>
+          <p>
+            <span style={styles.bold}>Schedule 2—Deferral of Intra-entity Gross Profit—2023</span>
+          </p>
+          <p>Inventory remaining at end of year................................................. $15,000</p>
+          <p>Gross profit percentage ($30,000 ÷ $90,000).................................. × 33⅓%</p>
+          <p>Gross profit remaining in inventory .......................................... $5,000</p>
+          <p>Ownership percentage..................................................................... × 40%</p>
+          <p>Intra-entity gross profit to be deferred until 2024 .................... $2,000</p>
+        </div>
+
+        <div style={styles.entry}>
+          <p>
+            <span style={styles.bold}>Schedule 3—Deferral of Intra-entity Gross Profit—2024</span>
+          </p>
+          <p>Inventory remaining at end of year (30%) ...................................... $24,000</p>
+          <p>Gross profit percentage ($30,000 ÷ $80,000).................................. × 37½%</p>
+          <p>Gross profit remaining in inventory .......................................... $9,000</p>
+          <p>Ownership percentage..................................................................... × 40%</p>
+          <p>Intra-entity gross profit to be deferred until 2025 .................... $3,600</p>
+        </div>
+      </div><div>
+        <h2>Problem 29</h2>
+        <div style={styles.entry}>
+          <p>(35 Minutes) (Investment sale with equity method applied both before and after. Includes other comprehensive loss and intra-entity inventory transfer)</p>
+          <p>
+            <span style={styles.bold}>Income effects for year ending December 31, 2024</span>
+          </p>
+          <p>Equity income in Seacrest, Inc. (Schedule 1) ........................... $116,000</p>
+          <p>Other comprehensive loss—Seacrest, Inc.</p>
+          <p>1/1/24 to 8/1/24 ($120,000 × 40% × 7/12 year)............. $(28,000)</p>
+          <p>8/1/24 to 12/31/24 ($120,000 × 32% × 5/12 year)......... (16,000) $(44,000)</p>
+          <p>Gain on sale of 8,000 shares of Seacrest (Schedule 2)................. $25,000</p>
+        </div>
+
+        <div style={styles.entry}>
+          <p>
+            <span style={styles.bold}>Schedule 1—Equity Income in Seacrest, Inc.</span>
+          </p>
+          <p>Investee income accrual—operations</p>
+          <p>$342,000 × 40% × 7/12 year.................................... $79,800</p>
+          <p>$342,000 × 32% × 5/12 year.................................... 45,600 $125,400</p>
+          <p>Amortization</p>
+          <p>$12,000 × 7/12 year................................................. $7,000</p>
+          <p>After 20 percent of stock is sold (8,000 ÷ 40,000 shares): $12,000 × 80% × 5/12 year ................. 4,000 (11,000)</p>
+          <p>Recognition of intra-entity gross profit</p>
+          <p>Remaining inventory—12/31/23 ............................ $10,000</p>
+          <p>Gross profit percentage on original sale ($20,000 ÷ $50,000)............................................ × 40%</p>
+          <p>Gross profit remaining in inventory ..................... $4,000</p>
+          <p>Ownership percentage .......................................... × 40%</p>
+          <p>Intra-entity gross profit recognized in 2024......... 1,600</p>
+          <p>Equity income in Seacrest, Inc. ....................... $116,000</p>
+        </div>
+
+        <div style={styles.entry}>
+          <p>
+            <span style={styles.bold}>Schedule 2—Gain on Sale of Investment in Seacrest, Inc.</span>
+          </p>
+          <p>Book value—investment in Seacrest, Inc.—1/1/24 (given) ........ $293,600</p>
+          <p>Investee income accrual—1/1/24 – 8/1/24 (Schedule 1) ............. 79,800</p>
+          <p>Investee other comprehensive loss 1/1/24 – 8/1/24.................... (28,000)</p>
+          <p>Amortization—1/1/24 – 8/1/24 (Schedule 1)................................. (7,000)</p>
+          <p>Recognition of deferred profit (Schedule 1)................................ 1,600</p>
+          <p>Investment in Seacrest book value 8/1/24........................................ $340,000</p>
+          <p>Percentage of investment sold (8,000 ÷ 40,000 shares)............. × 20%</p>
+          <p>Book value of shares being sold.................................................. $68,000</p>
+          <p>Proceeds from sale of shares....................................................... 93,000</p>
+          <p>Gain on sale of 8,000 shares of Seacrest............................... $25,000</p>
+        </div>
+      </div><div>
+        <h2>Problem 30</h2>
+        <div style={styles.entry}>
+          <p>(30 Minutes) (Compute equity balances for three years. Includes intra-entity inventory transfer)</p>
+          <p>
+            <span style={styles.bold}>Part a.</span>
+          </p>
+          <p>Equity Income 2022</p>
+          <p>Basic equity accrual ($598,000 × ½ year × 25%)....................... $74,750</p>
+          <p>Amortization (½ year—see Schedule 1).................................... (30,800)</p>
+          <p>Equity Income—2022............................................................. $43,950</p>
+          <p>Equity Income 2023</p>
+          <p>Basic equity accrual ($639,600 × 25%)..................................... $159,900</p>
+          <p>Amortization (see Schedule 1).................................................. (61,600)</p>
+          <p>Deferral of intra-entity profit (see Schedule 2) ........................ (6,000)</p>
+          <p>Equity Income—2023............................................................ $92,300</p>
+          <p>Equity Income 2024</p>
+          <p>Basic equity accrual ($692,400 × 25%)..................................... $173,100</p>
+          <p>Amortization (see Schedule 1).................................................. (61,600)</p>
+          <p>Recognition of deferred profit (see Schedule 2) ..................... 6,000</p>
+          <p>Equity Income—2024............................................................ $117,500</p>
+        </div>
+
+        <div style={styles.entry}>
+          <p>
+            <span style={styles.bold}>Schedule 1—Acquisition Price Allocation and Amortization</span>
+          </p>
+          <p>Acquisition price (88,000 shares × $13) $1,144,000</p>
+          <p>Book value acquired ($2,925,600 × 25%) 731,400</p>
+          <p>Payment in excess of book value $412,600</p>
+          <p>Remaining Annual</p>
+          <p>Excess payment identified with specific assets: Life Amortization</p>
+          <p>Equipment ($364,000 × 25%) $91,000 7 yrs. $13,000</p>
+          <p>Copyright ($972,000 × 25%) 243,000 5 yrs. 48,600</p>
+          <p>Trademark 78,600 indefinite -0-</p>
+          <p>Total annual amortization (full year) $61,600</p>
+        </div>
+
+        <div style={styles.entry}>
+          <p>
+            <span style={styles.bold}>Schedule 2—Deferral of Intra-entity Gross Profit</span>
+          </p>
+          <p>Intra-entity Gross Profit Percentage:</p>
+          <p>Sales $152,000</p>
+          <p>Cost of goods sold 91,200</p>
+          <p>Gross profit $60,800</p>
+          <p>Gross profit percentage: $60,800 ÷ $152,000 = 40%</p>
+          <p>Inventory remaining at December 31, 2023................................. $60,000</p>
+          <p>Gross profit percentage ............................................................... × 40%</p>
+          <p>Total profit on intra-entity sale still held by affiliate................... $24,000</p>
+          <p>Investor ownership percentage.................................................... × 25%</p>
+          <p>Intra-entity gross profit deferred from 2023 until 2024 .............. $6,000</p>
+        </div>
+
+        <div style={styles.entry}>
+          <p>
+            <span style={styles.bold}>Part b.</span>
+          </p>
+          <p>Investment in Carter—December 31, 2024 balance</p>
+          <p>Acquisition price ........................................................................... $1,144,000</p>
+          <p>2022 Equity income (above) ......................................................... 43,950</p>
+          <p>2022 Dividends declared during half year (88,000 shares × $1.00) (88,000)</p>
+          <p>2023 Equity income (above) ......................................................... 92,300</p>
+          <p>2023 Dividends declared (88,000 shares × $1.00 × 2)................. (176,000)</p>
+          <p>2024 Equity income (above) ......................................................... 117,500</p>
+          <p>2024 Dividends declared (88,000 shares × $1.00 × 2)................. (176,000)</p>
+          <p>Investment in Carter—12/31/24........................................... $957,750</p>
+        </div>
+      </div><div>
+        <h2>Problem 31</h2>
+        <div style={styles.entry}>
+          <p>(35 Minutes) (Journal entries for several years. Includes sale of a portion of the investment)</p>
+          <p>1/1/23 Investment in Bowden .............................. 982,000</p>
+          <p>Cash ...................................................... 982,000</p>
+          <p>(To record cost of 80,000 shares of Bowden Company.)</p>
+          <p>9/15/23 Cash............................................................ 40,000</p>
+          <p>Investment in Bowden......................... 40,000</p>
+          <p>(Annual dividend declared and received from Bowden [40% × $100,000])</p>
+          <p>12/31/23 Investment in Bowden .............................. 160,000</p>
+          <p>Equity in Investee Income ................... 160,000</p>
+          <p>(To accrue 2023 income based on 40% ownership of Bowden)</p>
+          <p>12/31/23 Equity in Investee Income ........................ 4,000</p>
+          <p>Investment in Bowden......................... 4,000</p>
+          <p>(Amortization of $60,000 excess patent fair value [indicated in problem] over 15 years)</p>
+          <p>7/1/24 Investment in Bowden .............................. 76,000</p>
+          <p>Equity in Investee Income ................... 76,000</p>
+          <p>(To accrue ½ year income of 40% ownership = $380,000 × ½ × 40%)</p>
+          <p>7/1/24 Equity in Investee Income ........................ 2,000</p>
+          <p>Investment in Bowden......................... 2,000</p>
+          <p>(To record ½ year amortization of patent to establish correct book value for investment as of 7/1/24)</p>
+          <p>7/1/24 Cash ........................................................... 330,000</p>
+          <p>Investment in Bowden......................... 293,000</p>
+          <p>Gain on Sale of Investment ................. 37,000</p>
+          <p>(20,000 shares of Bowden Company sold; investment basis computed below.)</p>
+        </div>
+
+        <div style={styles.entry}>
+          <p>
+            <span style={styles.bold}>Investment in Bowden and cost of shares sold:</span>
+          </p>
+          <p>1/1/23 Acquisition .................................................................... $982,000</p>
+          <p>9/15/23 Dividends ..................................................................... (40,000)</p>
+          <p>12/31/23 Basic equity accrual.................................................. 160,000</p>
+          <p>12/31/23 Amortization .............................................................. (4,000)</p>
+          <p>7/1/24 Basic equity accrual...................................................... 76,000</p>
+          <p>7/1/24 Amortization .................................................................. (2,000)</p>
+          <p>Investment in Bowden—7/1/24 balance............................ $1,172,000</p>
+          <p>Percentage of shares sold (20,000 ÷ 80,000).................... × 25%</p>
+          <p>Carrying amount of shares sold........................................ $293,000</p>
+          <p>Because 20,000 of 80,000, or ¼, of shares are sold, the percentage retained is ¾ of 40% = 30%.</p>
+        </div>
+
+        <div style={styles.entry}>
+          <p>9/15/24 Cash........................................................... 30,000</p>
+          <p>Investment in Bowden........................ 30,000</p>
+          <p>(To record annual dividend declared and received)</p>
+          <p>12/31/24 Investment in Bowden .............................. 57,000</p>
+          <p>Equity in Investee Income ................... 57,000</p>
+          <p>(To record ½ year income based on remaining 30% ownership: $380,000 × 1/2 × 30%)</p>
+          <p>12/31/24 Equity in Investee Income ........................ 1,500</p>
+          <p>Investment in Bowden......................... 1,500</p>
+          <p>(To record ½ year of patent amortization—computation presented below)</p>
+          <p>Annual patent amortization—original computation ................... $4,000</p>
+          <p>Percentage of shares retained (60,000 ÷ 80,000) ........................ × 75%</p>
+          <p>Annual patent amortization—current ......................................... $3,000</p>
+          <p>Patent amortization for half year.................................................. $1,500</p>
+        </div>
+
+        <h2>Problem 32</h2>
+        <div style={styles.entry}>
+          <p>(25 Minutes) (Equity income balances for two years, intra-entity transfers)</p>
+          <p>Equity Income 2023</p>
+          <p>Basic equity accrual ($250,000 × 30%)................................... $75,000</p>
+          <p>Amortization (see Schedule 1)................................................ (18,000)</p>
+          <p>Deferral of intra-entity gross profit (see Schedule 2)............ (9,000)</p>
+          <p>Equity Income—2023.......................................................... $48,000</p>
+          <p>Equity Income (Loss—2024)</p>
+          <p>Basic equity accrual ($100,000 [loss] × 30%) ........................ $(30,000)</p>
+          <p>Amortization (see Schedule 1)................................................ (18,000)</p>
+          <p>Realization of deferred gross profit (see Schedule 2) .......... 9,000</p>
+          <p>Deferral of intra-entity gross profit (see Schedule 3)............ (4,500)</p>
+          <p>Equity Loss—2024.............................................................. $(43,500)</p>
+        </div>
+
+        <div style={styles.entry}>
+          <p>
+            <span style={styles.bold}>Schedule 1</span>
+          </p>
+          <p>Purchase price................................................... $770,000</p>
+          <p>Book value acquired ($1,200,000 × 30%)......... 360,000</p>
+          <p>Payment in excess of book value .................... $410,000</p>
+          <p>Remaining Annual</p>
+          <p>Excess payment identified with specific assets: Life Amortization</p>
+          <p>Customer list ($300,000 × 30%) 90,000 5 yrs. $18,000</p>
+          <p>Excess not identified with specific accounts</p>
+          <p>Goodwill $320,000 indefinite -0-</p>
+          <p>Total annual amortization $18,000</p>
+        </div>
+
+        <div style={styles.entry}>
+          <p>
+            <span style={styles.bold}>Schedule 2</span>
+          </p>
+          <p>Inventory remaining at December 31, 2023................................. $80,000</p>
+          <p>Gross profit percentage ($60,000 ÷ $160,000)............................. × 37½%</p>
+          <p>Total intra-entity gross profit........................................................ $30,000</p>
+          <p>Investor ownership percentage.................................................... × 30%</p>
+          <p>Intra-entity gross profit deferral—12/31/23 (To be deferred until 2024) ...................................................... $9,000</p>
+        </div>
+
+        <div style={styles.entry}>
+          <p>
+            <span style={styles.bold}>Schedule 3</span>
+          </p>
+          <p>Inventory remaining at December 31, 2024................................. $75,000</p>
+          <p>Gross profit percentage ($35,000 ÷ $175,000)............................. × 20%</p>
+          <p>Total intra-entity gross profit........................................................ $15,000</p>
+          <p>Investor ownership percentage.................................................... × 30%</p>
+          <p>Intra-entity gross profit deferral—12/31/24 (Deferred until 2025) ...................................................................... $4,500</p>
+        </div>
+      </div></>
+  </> );
