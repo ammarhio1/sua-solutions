@@ -21,7 +21,7 @@ export default function Home() {
   };}
 
   return (
-  <> <><div style={styles.body}>
+   <><div style={styles.body}>
 
       <h1 style={styles.heading}>Answers to Problems</h1>
 
@@ -872,4 +872,4 @@ export default function Home() {
           <p>Intra-entity gross profit deferral—12/31/24 (Deferred until 2025) ...................................................................... $4,500</p>
         </div>
       </div></>
-  </> );
+  );
